@@ -1,4 +1,4 @@
-package com.berkerdgn.foodrecipeapp_2.graphs
+package com.berkerdgn.foodrecipeapp_2.presentation.graphs
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavGraphBuilder
@@ -6,9 +6,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
-import com.berkerdgn.foodrecipeapp_2.BottomBarScreen
-import com.berkerdgn.foodrecipeapp_2.FoodListScreen
-import com.berkerdgn.foodrecipeapp_2.SaveFoodScreen
+import com.berkerdgn.foodrecipeapp_2.presentation.BottomBarScreen
+import com.berkerdgn.foodrecipeapp_2.presentation.FoodListScreen
+import com.berkerdgn.foodrecipeapp_2.presentation.SaveFoodScreen
 
 @Composable
 fun HomeNavGraph(navController: NavHostController) {

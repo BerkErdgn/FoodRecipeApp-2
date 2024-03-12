@@ -1,11 +1,11 @@
-package com.berkerdgn.foodrecipeapp_2.graphs
+package com.berkerdgn.foodrecipeapp_2.presentation.graphs
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
-import com.berkerdgn.foodrecipeapp_2.LogoScreen
-import com.berkerdgn.foodrecipeapp_2.OnBoardingScreen
+import com.berkerdgn.foodrecipeapp_2.presentation.LogoScreen
+import com.berkerdgn.foodrecipeapp_2.presentation.OnBoardingScreen
 
 fun NavGraphBuilder.splashNavGraph(navController: NavHostController){
     navigation(

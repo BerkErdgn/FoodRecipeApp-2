@@ -1,4 +1,4 @@
-package com.berkerdgn.foodrecipeapp_2
+package com.berkerdgn.foodrecipeapp_2.presentation
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
@@ -28,8 +28,9 @@ import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
-import com.berkerdgn.foodrecipeapp_2.graphs.SplashScreen
-import com.berkerdgn.foodrecipeapp_2.ui.theme.customOrange
+import com.berkerdgn.foodrecipeapp_2.R
+import com.berkerdgn.foodrecipeapp_2.presentation.graphs.SplashScreen
+import com.berkerdgn.foodrecipeapp_2.presentation.theme.ui.customOrange
 import kotlinx.coroutines.delay
 
 @Composable
@@ -61,7 +62,7 @@ fun LogoScreen(navController: NavHostController) {
     ) {
         LoaderAnimation(
             modifier = Modifier.size(350.dp),
-            anim =R.raw.chef_animation
+            anim = R.raw.chef_animation
         )
         Spacer(modifier = Modifier.height(5.dp))
 
