@@ -1,13 +1,9 @@
-package com.berkerdgn.foodrecipeapp_2
+package com.berkerdgn.foodrecipeapp_2.presentation
 
 import android.annotation.SuppressLint
-import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.BottomNavigation
-import androidx.compose.material.BottomNavigationItem
-import androidx.compose.material.ContentAlpha
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -18,15 +14,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavDestination
-import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.berkerdgn.foodrecipeapp_2.graphs.HomeNavGraph
-import com.berkerdgn.foodrecipeapp_2.ui.theme.customGray
-import com.berkerdgn.foodrecipeapp_2.ui.theme.customOrange
+import com.berkerdgn.foodrecipeapp_2.presentation.graphs.HomeNavGraph
+import com.berkerdgn.foodrecipeapp_2.presentation.theme.ui.customOrange
 
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

@@ -1,4 +1,4 @@
-package com.berkerdgn.foodrecipeapp_2.ui.theme
+package com.berkerdgn.foodrecipeapp_2.presentation.theme.ui
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.berkerdgn.foodrecipeapp_2
+package com.berkerdgn.foodrecipeapp_2.presentation
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.background
@@ -35,7 +35,8 @@ import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
-import com.berkerdgn.foodrecipeapp_2.graphs.Graph
+import com.berkerdgn.foodrecipeapp_2.R
+import com.berkerdgn.foodrecipeapp_2.presentation.graphs.Graph
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState

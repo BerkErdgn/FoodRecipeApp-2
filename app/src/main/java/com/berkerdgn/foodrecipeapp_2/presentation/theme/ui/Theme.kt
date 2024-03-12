@@ -1,4 +1,4 @@
-package com.berkerdgn.foodrecipeapp_2.ui.theme
+package com.berkerdgn.foodrecipeapp_2.presentation.theme.ui
 
 import android.app.Activity
 import android.os.Build
